@@ -1,19 +1,42 @@
 <html>
     <head>
-    
+        <style type = "text/css">
+            .intro1 {
+                background-color: red;
+            }
+
+            .intro2 {
+                background-color: violet;
+            }
+
+            .intro3 {
+                background-color: blue;
+            }
+        </style>
     </head>
     <body>
-        <p id = "intro1">ilk paragraf</p>
-        <p id = "intro2">ikinci paragraf</p>
-        <p id = "intro3">ucuncu paragraf</p>
+        <p class = "intro1" id = "intro1">ilk paragraf</p>
+        <p class = "intro2" id = "intro2">ikinci paragraf</p>
+        <p class = "intro3" id = "intro3">ucuncu paragraf</p>
         <ul>
             <li>Adana</li>
-            <li>Ankara</li>
+            <li class ="intro1" >Ankara</li>
             <li>Zonguldak</li>
             <li>Konya</li>
             <li>Bolu</li>
         </ul>
         <p id = "mesaj"></p>
+
+        <input type = "text" name = "musteriAdi" value = "Yaren Yazar">
+        <h1 id = "tuana">Tuana Tekinel</h1>
+        <h1 id = "yazar"></h1>
+        <p class = "intro1" id = "agac">
+            Agac degeri
+        </p>
+        <div id = "div1">
+            <p id = "p1">Bu kisim p1</p>
+            <p id = "p2">Bu kisim p2</p>
+        </div>
         <script src = "dom.js"></script>
     </body>
 </html>
